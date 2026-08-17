@@ -5,6 +5,12 @@ public class constructor {
     int age;
     double height;
 
+    constructor() {
+        name = "sanju";
+        age = 19;
+        height = 160;
+    }
+
     constructor(String name, int age, double height) {
         this.name = name;
         this.age = age;
@@ -25,6 +31,9 @@ class studentApply {
          * constructor s1 = new constructor();
          * s1.input("Sanjay", 20, 170);
          */
+        constructor s2 = new constructor();
+        s2.disp();
+
         constructor s1 = new constructor("Sanjay", 20, 170);
         s1.disp();
     }
