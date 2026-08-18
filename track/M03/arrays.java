@@ -19,6 +19,14 @@ public class arrays {
         for (int i = 4; i >= 0; i--) {
             System.out.print(a[i] + " ");
         }
+
+        System.out.println();
+        int total = 0;
+        for (int i = 0; i < 5; i++) {
+            total += a[i];
+        }
+        System.out.println("Sum of all elements in array: " + total);
+
         sc.close();
     }
 }
